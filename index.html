@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+
+        }
+        .big-font {
+            font-size: 8em;
+        }
+        .main-card {
+            min-height: 500px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <br><br><br>
+    <div class="container card main-card ">
+
+        <div class="">
+            <br><br>
+            <div>
+                <h1 align="center" >Stop Watch</h1>
+            </div><br>
+            <div class="big-font " align="center" >
+                <span id="hourspan">00</span>:
+                <span id="minutespan" >00</span>:
+                <span id="secondspan"  >00</span>:
+                <span id="countspan"  >00</span>
+            </div>
+            <div  align="center" >
+
+                <button onclick="start() " class="btn btn-primary">Start</button>
+                <button onclick="stop() " class="btn btn-danger">Stop</button>
+                <button onclick="reset() " class="btn btn-warning">Reset</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
