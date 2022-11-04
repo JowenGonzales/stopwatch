@@ -4,10 +4,10 @@ var secondspan = document.getElementById("secondspan");
 var countspan = document.getElementById("countspan");
 let timer = true;
 
-let hour = 00;
-let minute = 00;
-let second = 00;
-let count = 00;
+var hour = 00;
+var minute = 00;
+var second = 00;
+var count = 00;
 
 
 function start() {
